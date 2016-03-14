@@ -1,0 +1,13 @@
+.bg {
+background-image: url(assets/imgs/godzilla_movie_2014-wallpaper-1366x768.jpg);
+}
+
+#head{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: gray;
+    font-size: 50px;
+    border-bottom-style: double;
+    border-width: 1px;
+    background-color: transparent;
+}
