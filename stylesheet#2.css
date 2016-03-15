@@ -1,12 +1,9 @@
 #all {
-    background-color: darkkhaki;
-    width: 100%;
+    
 }
 .bg {
-background-image:url(assets/imgs/funny_worm_toy-wallpaper-1366x768.jpg);
+background-image:url(assets/imgs/awesome_bokeh_vintage-wallpaper-2048x1536.jpg);
     background-repeat: no-repeat;
-    border-top-right-radius: 70px;
-    border-bottom-left-radius:79px;
     padding-bottom: 250px;
     border-width: 100%;
     position:relative;
@@ -46,12 +43,41 @@ background-image:url(assets/imgs/funny_worm_toy-wallpaper-1366x768.jpg);
     background-image:url(assets/imgs/rayman_raving_rabbids_playing_wii-wallpaper-1366x768.jpg);
     border-radius: 70px;
     font-style: italic;
-    color:saddlebrown;
+    color:aqua;
     width: 150%;
 }
 #left a:hover{
-    background-color:aqua;
+    background-color:#d9d6a7;
     text-decoration: none;
-    color: blue;
+    color: saddlebrown;
     
+}
+ #dropleft{
+    position: relative;
+    display: inline-block;
+}
+
+#content {
+    list-style: none;
+    margin-bottom: 10px;
+    float:left;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+#content li{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+#content a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+#dropleft: hover #content li{
+    border-left-color: yellow;
+    border-right-color: greenyellow;
+    border-top-color: darkmagenta;
+    border-bottom-color: chocolate;
 }
