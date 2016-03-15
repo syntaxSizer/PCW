@@ -1,13 +1,57 @@
+#all {
+    background-color: darkkhaki;
+    width: 100%;
+}
 .bg {
-background-image: url(assets/imgs/godzilla_movie_2014-wallpaper-1366x768.jpg);
+background-image:url(assets/imgs/funny_worm_toy-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius:79px;
+    padding-bottom: 250px;
+    border-width: 100%;
+    position:relative;
 }
 
 #head{
     text-align: center;
     font-family: 'Poiret One', cursive;
-    color: gray;
+    color: #a8ed3e;
     font-size: 50px;
-    border-bottom-style: double;
+    width: 26%;
     border-width: 1px;
-    background-color: transparent;
+    background-color:transparent;
+}
+
+#left {
+    padding-top: 66px;
+    width: 20%;
+    
+    
+}
+#left ul{
+    padding: 6px;
+    
+}
+#left ul li{
+    padding-top: 30px;
+    padding-left: 24px 
+}
+#left a{
+    text-decoration: none;
+    color:#f5095b;
+    font-size: 30px;
+    border-radius: 8px
+}
+#left ul:hover{
+    background-image:url(assets/imgs/rayman_raving_rabbids_playing_wii-wallpaper-1366x768.jpg);
+    border-radius: 70px;
+    font-style: italic;
+    color:saddlebrown;
+    width: 150%;
+}
+#left a:hover{
+    background-color:aqua;
+    text-decoration: none;
+    color: blue;
+    
 }
