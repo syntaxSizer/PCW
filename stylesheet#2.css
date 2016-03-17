@@ -231,3 +231,15 @@ background-image:url(assets/imgs/funny_sheeps-wallpaper-1366x768.jpg);
     position: fixed;
     
 }
+
+#cont {
+    display: block;
+    border: solid 5px ;
+    border-color: black;
+    width: 55%;
+    padding-top: 55px;
+    border-left-width:
+    
+
+    
+}
