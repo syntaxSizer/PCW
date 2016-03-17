@@ -141,11 +141,93 @@ background-image:url(assets/imgs/funny_sheeps-wallpaper-1366x768.jpg);
          #hawa {
    position:fixed;
  text-align: right;
-    padding-bottom: 15px; 
-             
+    padding-bottom: 15px;    
    bottom:0;
-   width:100%;
+   width:98%;
    height:15px;
   font-size: 29px;
    
+}
+.MC-Bug{
+    background-image: url(assets/imgs/whos_the_autograph_for___calculon_futurama-wallpaper-1366x768.jpg);
+    position: fixed;
+}
+.MC-Bug p{
+    padding-left: 30px;
+    padding-right: 600px;
+    padding-top: 1px;
+    color: #111211;
+    font-size: 17px
+}
+.AngryFly{
+    background-image: url(assets/imgs/stealth_inc__2_a_game_of_clones_nightlight_inflate-wallpaper-1366x768.jpg);
+    position: fixed;
+}
+.AngryFly p{
+    padding-left: 3px;
+    padding-right: 600px;
+    padding-top: 1px;
+    color: #111211;
+    font-size: 17px
+}
+.Delta{
+    background-image: url(assets/imgs/godzilla_movie_2014-wallpaper-1366x768.jpg);
+    position: fixed;
+}
+.Delta p{
+    padding-left: 600px;
+    padding-right: 6px;
+    padding-top: 1px;
+    color: #b0c7b0;
+    font-size: 17px
+}
+.Delta h1{
+    color: white;
+    width:120%;
+}
+.Nemo{
+    background-image: url(assets/imgs/the_moonsters_game-wallpaper-1366x768.jpg);
+    position: fixed;
+}
+.Nemo p{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 1px;
+    color: #f5095b;
+    font-size: 17px
+}
+.JSGeek{
+    background-image: url(assets/imgs/born_2-wallpaper-1366x768.jpg);
+    position: fixed;
+}
+.JSGeek p{
+      padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 1px;
+    color: #d6a2b4;
+    font-size: 17px   
+}
+.JSGeek h1{
+    color:purple;
+}
+.codepool{
+    background-image: url(assets/imgs/toy_robot-wallpaper-1366x768.jpg);
+    position: fixed;
+}
+.codepool h1{
+    color: #d6a2b4;
+}
+.codepool p{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 1px;
+    color: #d6a2b4;
+    font-size: 17px 
+}
+.about {
+    background-color:  #17e2e5;
+    padding-right: 300px;
+    background-repeat: no-repeat;
+    position: fixed;
+    
 }
