@@ -8,6 +8,18 @@ background-image:url(assets/imgs/funny_sheeps-wallpaper-1366x768.jpg);
     
     
 }
+#AngryFly #backlink {
+    display: inline-block;
+    border: 3px;
+    float: right;
+}
+#backlink a{
+    text-decoration:none;
+    background: azure;
+    font-style: italic;
+}
+    
+}
 
 #head{
     text-align: center;
@@ -113,7 +125,7 @@ background-image:url(assets/imgs/funny_sheeps-wallpaper-1366x768.jpg);
     display: none;
     position: absolute;
     top:100%;
-    left: 0;
+    right: 0;
 }
 #menu ul ul li{
     float: none;
@@ -239,7 +251,22 @@ background-image:url(assets/imgs/funny_sheeps-wallpaper-1366x768.jpg);
     width: 55%;
     padding-top: 55px;
     border-left-width:
+}
+#about ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:0;
+}
+#about ul ul li{
+    float:none;
+    width: 200px;
+}
+#about ul ul li{
+    line-height: 120px;
+    padding: 10px 15px;
     
-
-    
+}
+#about ul li:hover >ul{
+    display: block;
 }
